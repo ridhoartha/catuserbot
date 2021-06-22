@@ -5,72 +5,11 @@ from . import ALIVE_NAME, catub, edit_or_reply
 
 plugin_category = "fun"
 
-
-@catub.cat_cmd(
-    pattern="sadboi$",
-    command=("sadboi", plugin_category),
-    info={
-        "header": "throwing brain in dustbin animation",
-        "usage": "{tr}sadboi",
-    },
-)
-async def _(event):
-    "animation command"
-    animation_interval = 0.4
-    animation_ttl = range(14)
-    event = await edit_or_reply(event, "`bang?`")
-    animation_chars = [
-        "assalamualaikum",
-        "{username} NIH BOS",
-        "yhahahahaha",
-        "bot lu bisa gini ga?",
-        "😈",
-        "{username} NIH BOS",
-        "😈",
-    ]
-    for i in animation_ttl:
-        await asyncio.sleep(animation_interval)
-        await event.edit(animation_chars[i % 7])
-
-
-@catub.cat_cmd(
-    pattern="bombs$",
-    command=("bombs", plugin_category),
-    info={
-        "header": "bomb animation",
-        "usage": "{tr}bombs",
-    },
-)
-async def _(event):
-    "animation command"
-    event = await edit_or_reply(event, "bombs")
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
-    await asyncio.sleep(0.5)
-    await event.edit("💣💣💣💣 \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
-    await asyncio.sleep(0.5)
-    await event.edit("▪️▪️▪️▪️ \n💣💣💣💣 \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
-    await asyncio.sleep(0.5)
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💣💣💣💣 \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
-    await asyncio.sleep(0.5)
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💣💣💣💣 \n▪️▪️▪️▪️ \n")
-    await asyncio.sleep(0.5)
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💣💣💣💣 \n")
-    await asyncio.sleep(1)
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💥💥💥💥 \n")
-    await asyncio.sleep(0.5)
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💥💥💥💥 \n💥💥💥💥 \n")
-    await asyncio.sleep(0.5)
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n😵😵😵😵 \n")
-    await asyncio.sleep(0.5)
-    await event.edit("`RIP PLOXXX......`")
-    await asyncio.sleep(2)
-
-
 @catub.cat_cmd(
     pattern="call$",
     command=("call", plugin_category),
     info={
-        "header": "Fun animation try yourself to know more",
+        "header": "buat nyari slipkol",
         "usage": "{tr}call",
     },
 )
