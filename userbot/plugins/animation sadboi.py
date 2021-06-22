@@ -7,37 +7,30 @@ plugin_category = "fun"
 
 
 @catub.cat_cmd(
-    pattern="stupid$",
-    command=("stupid", plugin_category),
+    pattern="sadboi$",
+    command=("sadboi", plugin_category),
     info={
         "header": "throwing brain in dustbin animation",
-        "usage": "{tr}stupid",
+        "usage": "{tr}sadboi",
     },
 )
 async def _(event):
     "animation command"
-    animation_interval = 1
+    animation_interval = 0.4
     animation_ttl = range(14)
-    event = await edit_or_reply(event, "`Throw your brain in dustbin`")
+    event = await edit_or_reply(event, "`bang?`")
     animation_chars = [
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠         <(^_^ <)🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠       <(^_^ <)  🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠     <(^_^ <)    🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠   <(^_^ <)      🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠 <(^_^ <)        🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠<(^_^ <)         🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n(> ^_^)>🧠         🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n  (> ^_^)>🧠       🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n    (> ^_^)>🧠     🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n      (> ^_^)>🧠   🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n        (> ^_^)>🧠 🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n          (> ^_^)>🧠🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n           (> ^_^)>🗑",
-        "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n           <(^_^ <)🗑",
+        "assalamualaikum",
+        "{username} NIH BOS",
+        "yhahahahaha",
+        "bot lu bisa gini ga?",
+        "😈",
+        "{username} NIH BOS",
+        "😈",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
-        await event.edit(animation_chars[i % 14])
+        await event.edit(animation_chars[i % 7])
 
 
 @catub.cat_cmd(
