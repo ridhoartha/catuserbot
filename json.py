@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ridhoartha/catuserbot/",
+  "repository": "https://github.com/ridhoartha/thesadboi/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
