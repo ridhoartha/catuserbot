@@ -17,13 +17,13 @@ A simple Telegram userbot based on Telethon .
 
 
 
-## How to deploy catuserbot
+## How to deploy sadboi userbot
 ### Heroku Deploy
   - [Source Code](https://github.com/ridhoartha/thesadboi)
   - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fridhoartha%2Fthesadboi&template=https%3A%2F%2Fgithub.com%2Fridhoartha%2Fthesadboi)
 
-### Self host
-  - [check this](https://catuserbot.gitbook.io/catuserbot/tutorial/self-host)
+### Owner
+  - [Lunglung](https://t.me/alunngg)
   
 ## Support
    <a href="https://t.me/Daysmusicchannel"><img src="https://img.shields.io/badge/Channel%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
