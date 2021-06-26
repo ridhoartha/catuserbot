@@ -22,7 +22,7 @@ catversion = "3.0.2"
 
 if Config.UPSTREAM_REPO == "badcat":
     UPSTREAM_REPO_URL = "https://github.com/Jisan09/catuserbot"
-elif Config.UPSTREAM_REPO == "sadboi":
+elif Config.UPSTREAM_REPO == "goodcat":
     UPSTREAM_REPO_URL = "https://github.com/ridhoartha/thesadboi"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
