@@ -61,8 +61,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "ISI SADBOI AJE UDEH YEEE",
-      "value": "sadboi",
+      "description": "ISI goodcat AJE UDEH YEEE",
+      "value": "goodcat",
       "required": false
     }
   },
