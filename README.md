@@ -23,7 +23,7 @@ A simple Telegram userbot based on Telethon .
   - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fridhoartha%2Fthesadboi&template=https%3A%2F%2Fgithub.com%2Fridhoartha%2Fthesadboi)
 
 ### Owner
-  - [Lunglung](https://t.me/alunngg)
+  - [Rensi](https://t.me/r2ensi)
   
 ## Support
    <a href="https://t.me/Daysmusicchannel"><img src="https://img.shields.io/badge/Channel%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
