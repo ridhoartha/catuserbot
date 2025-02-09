@@ -16,12 +16,6 @@ A simple Telegram userbot based on Telethon by rensi
 [![GitHub stars](https://img.shields.io/github/stars/sandy1709/catuserbot?&style=flat-square&logo=github)](https://github.com/sandy1709/catuserbot/stargazers)
 
 
-
-## How to deploy sadboi userbot
-### Heroku Deploy
-  - [Source Code](https://github.com/ridhoartha/thesadboi)
-  - [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fridhoartha%2Fthesadboi&template=https%3A%2F%2Fgithub.com%2Fridhoartha%2Fthesadboi)
-
 ### Owner
   - [Rensi](https://t.me/r2ensi)
   
